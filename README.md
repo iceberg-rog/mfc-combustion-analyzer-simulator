@@ -53,7 +53,7 @@ What the detector panel gives you:
 
 The app also includes:
 
-- `Calibration` tab for standards, fit, slope, intercept, and `R²`
+- `Calibration` tab for standards, fit, slope, intercept, and `R2`
 - `Results` tab for analytical release-style records
 - Expected vs measured ppm
 - Recovery percentage
@@ -73,70 +73,149 @@ The simulation stages the sample through these phases:
 
 This is what drives the detector response, trend markers, and final reported result.
 
-## Quick Start With Docker
+## Installation
+
+Choose **one** of these ways to run the project:
+
+- Docker production
+- Docker development with live reload
+- Local Node.js without Docker
+
+## Option 1: Docker Production
+
+Use this when you want the fastest and simplest run path.
 
 Requirements:
 
-- Docker Engine
-- Docker Compose support
+- Git
+- Docker Desktop on Windows, or Docker Engine with Compose on Linux
 
-Run production:
+Copy and run in a shell:
 
 ```bash
+git clone https://github.com/iceberg-rog/mfc-combustion-analyzer-simulator.git
+cd mfc-combustion-analyzer-simulator
 docker compose up --build
 ```
 
-Or:
-
-```bash
-npm run docker:prod
-```
-
-Open:
+Then open:
 
 ```text
 http://localhost:3000
 ```
 
-Run detached:
+Run in detached mode:
 
 ```bash
+git clone https://github.com/iceberg-rog/mfc-combustion-analyzer-simulator.git
+cd mfc-combustion-analyzer-simulator
 docker compose up --build -d
 ```
 
-Stop:
+Stop the production container:
 
 ```bash
+cd mfc-combustion-analyzer-simulator
 docker compose down
 ```
 
-## Development Container
+## Option 2: Docker Development With Live Reload
 
-For development with mounted source files and automatic reload:
+Use this when you want to edit the code and see changes automatically.
+
+Requirements:
+
+- Git
+- Docker Desktop on Windows, or Docker Engine with Compose on Linux
+
+Copy and run in a shell:
 
 ```bash
+git clone https://github.com/iceberg-rog/mfc-combustion-analyzer-simulator.git
+cd mfc-combustion-analyzer-simulator
 docker compose -f docker-compose.dev.yml up --build
 ```
 
-Or:
-
-```bash
-npm run docker:dev
-```
-
-Open:
+Then open:
 
 ```text
 http://localhost:3000
 ```
 
-Stop development container:
+Stop the development container:
 
 ```bash
+cd mfc-combustion-analyzer-simulator
 docker compose -f docker-compose.dev.yml down
 ```
 
-The development container enables polling-based file watching so source changes are detected reliably across Windows and Linux hosts.
+This mode mounts the project source into the container and enables polling-based file watching so it works reliably across Windows and Linux hosts.
+
+## Option 3: Local Node.js Run
+
+Use this when you do not want Docker.
+
+Requirements:
+
+- Git
+- Node.js `22.x`
+- npm `10.x` or newer
+
+Copy and run in a shell:
+
+```bash
+git clone https://github.com/iceberg-rog/mfc-combustion-analyzer-simulator.git
+cd mfc-combustion-analyzer-simulator
+npm ci
+npm run build
+npm run start
+```
+
+Then open:
+
+```text
+http://localhost:3000
+```
+
+## PowerShell Copy-Paste
+
+Windows PowerShell, Docker production:
+
+```powershell
+git clone https://github.com/iceberg-rog/mfc-combustion-analyzer-simulator.git
+Set-Location mfc-combustion-analyzer-simulator
+docker compose up --build
+```
+
+Windows PowerShell, Docker development:
+
+```powershell
+git clone https://github.com/iceberg-rog/mfc-combustion-analyzer-simulator.git
+Set-Location mfc-combustion-analyzer-simulator
+docker compose -f docker-compose.dev.yml up --build
+```
+
+Windows PowerShell, local Node.js:
+
+```powershell
+git clone https://github.com/iceberg-rog/mfc-combustion-analyzer-simulator.git
+Set-Location mfc-combustion-analyzer-simulator
+npm ci
+npm run build
+npm run start
+```
+
+## npm Shortcuts
+
+After you are already inside the project folder, you can use:
+
+```bash
+npm run docker:prod
+npm run docker:prod:detached
+npm run docker:prod:down
+npm run docker:dev
+npm run docker:dev:down
+```
 
 ## Helper Scripts
 
@@ -166,22 +245,6 @@ Run the image directly:
 
 ```bash
 docker run --rm -p 3000:3000 --name mfc-combustion-analyzer-simulator mfc-combustion-analyzer-simulator
-```
-
-## Local Node.js Run
-
-If someone wants to run it without Docker:
-
-```bash
-npm ci
-npm run build
-npm run start
-```
-
-Then open:
-
-```text
-http://localhost:3000
 ```
 
 ## Repository Structure
