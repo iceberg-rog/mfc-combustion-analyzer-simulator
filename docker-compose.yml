@@ -1,0 +1,15 @@
+services:
+  mfc-combustion-analyzer-simulator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mfc-combustion-analyzer-simulator:latest
+    container_name: mfc-combustion-analyzer-simulator
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+      NEXT_TELEMETRY_DISABLED: "1"
+    restart: unless-stopped

@@ -1,0 +1,45 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="760" rx="32" fill="#F8FAFC"/>
+  <rect x="28" y="28" width="1344" height="704" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="64" y="90" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0F172A">Detector Signal Analysis</text>
+  <text x="64" y="126" font-family="Arial, sans-serif" font-size="18" fill="#64748B">Primary analytical graph with live response, ppm overlay, pause/resume, and CSV export.</text>
+  <rect x="1018" y="56" width="110" height="44" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="1144" y="56" width="110" height="44" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="1270" y="56" width="72" height="44" rx="14" fill="#0EA5E9"/>
+  <text x="1048" y="84" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0F172A">Pause</text>
+  <text x="1168" y="84" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0F172A">Resume</text>
+  <text x="1286" y="84" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">CSV</text>
+  <rect x="64" y="164" width="1272" height="424" rx="24" fill="#FFFDFB" stroke="#E2E8F0" stroke-width="2"/>
+  <line x1="126" y1="520" x2="1278" y2="520" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="126" y1="240" x2="126" y2="520" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="126" y1="470" x2="1278" y2="470" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <line x1="126" y1="400" x2="1278" y2="400" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <line x1="126" y1="330" x2="1278" y2="330" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <line x1="126" y1="260" x2="1278" y2="260" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <line x1="314" y1="220" x2="314" y2="520" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="6 6"/>
+  <line x1="742" y1="220" x2="742" y2="520" stroke="#10B981" stroke-width="2.5" stroke-dasharray="6 6"/>
+  <line x1="982" y1="220" x2="982" y2="520" stroke="#8B5CF6" stroke-width="2.5" stroke-dasharray="6 6"/>
+  <polyline points="126,478 184,476 242,474 300,470 358,450 416,420 474,380 532,332 590,286 648,258 706,248 764,270 822,318 880,372 938,418 996,450 1054,468 1112,476 1170,480 1228,482 1278,483" fill="none" stroke="#10B981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="126,486 184,484 242,481 300,478 358,460 416,432 474,392 532,344 590,298 648,268 706,258 764,280 822,330 880,384 938,430 996,458 1054,474 1112,480 1170,483 1228,485 1278,486" fill="none" stroke="#0EA5E9" stroke-width="4" stroke-dasharray="12 8" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="126,520 184,520 242,519 300,518 358,510 416,498 474,480 532,450 590,412 648,372 706,340 764,348 822,390 880,438 938,476 996,498 1054,510 1112,516 1170,519 1228,520 1278,520" fill="none" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="126" y1="488" x2="1278" y2="488" stroke="#64748B" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="274" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#B45309">Inject</text>
+  <text x="700" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#047857">Detect</text>
+  <text x="946" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#7C3AED">Clear</text>
+  <text x="1180" y="506" font-family="Arial, sans-serif" font-size="14" fill="#475569">Baseline</text>
+  <rect x="64" y="622" width="250" height="72" rx="20" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="332" y="622" width="250" height="72" rx="20" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="600" y="622" width="250" height="72" rx="20" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="868" y="622" width="220" height="72" rx="20" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="1106" y="622" width="230" height="72" rx="20" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="88" y="650" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Current Signal</text>
+  <text x="88" y="682" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0F172A">0.42135 AU</text>
+  <text x="356" y="650" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Baseline</text>
+  <text x="356" y="682" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0F172A">0.10482 AU</text>
+  <text x="624" y="650" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Peak</text>
+  <text x="624" y="682" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0F172A">0.43210 AU</text>
+  <text x="892" y="650" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Delta</text>
+  <text x="892" y="682" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0F172A">0.3273 AU</text>
+  <text x="1130" y="650" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Measured ppm</text>
+  <text x="1130" y="682" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0F172A">49.82 ppm</text>
+</svg>
