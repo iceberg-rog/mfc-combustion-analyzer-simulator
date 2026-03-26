@@ -51,8 +51,8 @@ export function TopBar({
       <div className="grid gap-5 xl:grid-cols-[1.15fr_0.85fr]">
         <div className="space-y-5">
           <p className="max-w-3xl text-sm leading-6 text-slate-600">
-            A clearer, lighter operator surface built for process review instead of decorative dashboard chrome.
-            The hierarchy is flatter, the status colors are sharper, and the controls stay readable at a glance.
+            Integrated operator view for process status, module control, detector monitoring, and analytical review.
+            The layout keeps the critical controls and signal trends visible without leaving the main workflow.
           </p>
 
           <div className="flex flex-wrap gap-3">

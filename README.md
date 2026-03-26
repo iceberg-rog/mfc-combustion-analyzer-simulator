@@ -12,7 +12,7 @@ Container-ready operator simulator for an MFC-based combustion analyzer with:
 ## What This Project Is
 
 This project is a browser-based process simulator for an **MFC combustion analyzer**.
-It is designed to feel closer to an operator console than a toy dashboard:
+It is organized as an operator console focused on process control and analytical review:
 
 - The **syringe/injector** is modeled as the main analytical trigger
 - Sample movement is staged through **injector -> furnace -> detector -> clearing**
